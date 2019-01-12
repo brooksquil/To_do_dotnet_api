@@ -1,0 +1,14 @@
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/bin/Debug/netcoreapp2.1/first_dotnet_web_api.deps.json
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/bin/Debug/netcoreapp2.1/first_dotnet_web_api.runtimeconfig.json
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/bin/Debug/netcoreapp2.1/first_dotnet_web_api.runtimeconfig.dev.json
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/bin/Debug/netcoreapp2.1/first_dotnet_web_api.dll
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/bin/Debug/netcoreapp2.1/first_dotnet_web_api.pdb
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/obj/Debug/netcoreapp2.1/first_dotnet_web_api.csprojAssemblyReference.cache
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/obj/Debug/netcoreapp2.1/first_dotnet_web_api.csproj.CoreCompileInputs.cache
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/obj/Debug/netcoreapp2.1/first_dotnet_web_api.RazorAssemblyInfo.cache
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/obj/Debug/netcoreapp2.1/first_dotnet_web_api.RazorAssemblyInfo.cs
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/obj/Debug/netcoreapp2.1/first_dotnet_web_api.AssemblyInfoInputs.cache
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/obj/Debug/netcoreapp2.1/first_dotnet_web_api.AssemblyInfo.cs
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/obj/Debug/netcoreapp2.1/first_dotnet_web_api.RazorTargetAssemblyInfo.cache
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/obj/Debug/netcoreapp2.1/first_dotnet_web_api.dll
+/Users/BPC/workspace_2019/dotnet_api_project/first_dotnet_web_api/first_dotnet_web_api/obj/Debug/netcoreapp2.1/first_dotnet_web_api.pdb
