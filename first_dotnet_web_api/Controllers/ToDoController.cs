@@ -26,23 +26,65 @@ namespace first_dotnet_web_api.Controllers
 
         // GET: api/Todo
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ToDoItem>>> GetTodoItems()
+        public async Task<ActionResult<IEnumerable<ToDoItem>>> GetToDoItems()
         {
             return await _context.ToDoItems.ToListAsync();
         }
 
         // GET: api/Todo/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<ToDoItem>> GetTodoItem(long id)
+        public async Task<ActionResult<ToDoItem>> GetToDoItem(long id)
         {
-            var todoItem = await _context.ToDoItems.FindAsync(id);
+            var ToDoItem = await _context.ToDoItems.FindAsync(id);
 
-            if (todoItem == null)
+            if (ToDoItem == null)
             {
                 return NotFound();
             }
 
-            return todoItem;
+            return ToDoItem;
         }
+
+        // POST: api/Todo
+        [HttpPost]
+        public async Task<ActionResult<ToDoItem>> PostToDoItem(ToDoItem ToDoItem)
+        {
+            _context.ToDoItems.Add(ToDoItem);
+            await _context.SaveChangesAsync();
+
+        return CreatedAtAction("GetToDoItem", new { id = ToDoItem.Id }, ToDoItem);
+        }
+
+        // PUT: api/Todo/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutToDoItem(long id, ToDoItem ToDoItem)
+        {
+            if (id != ToDoItem.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(ToDoItem).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        // DELETE: api/Todo/5
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<ToDoItem>> DeleteToDoItem(long id)
+        {
+            var ToDoItem = await _context.ToDoItems.FindAsync(id);
+            if (ToDoItem == null)
+            {
+                return NotFound();
+            }
+
+            _context.ToDoItems.Remove(ToDoItem);
+            await _context.SaveChangesAsync();
+
+            return ToDoItem;
+        }
+
     }
 }
